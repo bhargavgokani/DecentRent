@@ -10,4 +10,4 @@ Probable Solution : To create an effective decentralized house renting platform,
                     payment services and security measures.This decentralized house renting platform aims to revolutionize the rental market by providing
                     a secure, transparent, and efficient alternative to traditional renting processes. By leveraging blockchain technology, smart contracts,
                     and decentralized identity verification, the platform can address current challenges and build a trustworthy ecosystem for landlords and tenants.
------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
