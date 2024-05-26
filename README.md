@@ -11,8 +11,9 @@ Probable Solution: To create an effective decentralized house-renting platform, 
                     payment services and security measures. This decentralized house-renting platform aims to revolutionize the rental market by providing
                     a secure, transparent, and efficient alternative to traditional renting processes. By leveraging blockchain technology, smart contracts,
                     and decentralized identity verification, the platform can address current challenges and build a trustworthy ecosystem for landlords and tenants.
+                    
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
 
 Approach:  Our website provides a user-friendly interface and users can see all the houses listed and available for rent. Users can hover through
-             the photo being shown and can see the rest of the photos of the house. User can book the house using Ethereum (Blockchain) available in their purse. 
-             User will be able to book from any date, eliminating the extra pay-off from the user. Other than that user will also be able to list their own houses, available                for rent. They can provide valuable reviews if wanted. Users can access the About Us, Contact Us, and Service sections throughout the platform.
+           the photo being shown and can see the rest of the photos of the house. User can book the house using Ethereum (Blockchain) available in their purse. 
+           User will be able to book from any date, eliminating the extra pay-off from the user. Other than that user will also be able to list their own houses, available                for rent. They can provide valuable reviews if wanted. Users can access the About Us, Contact Us, and Service sections throughout the platform.
