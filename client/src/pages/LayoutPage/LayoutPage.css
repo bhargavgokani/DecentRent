@@ -1,0 +1,8 @@
+.wrapper{
+    display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.content {
+    flex-grow: 1; /* Allow the content area to expand */
+  }

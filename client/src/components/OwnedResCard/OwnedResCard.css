@@ -1,0 +1,102 @@
+.ownedpropertyCard-wrapper{
+    display: flex;
+    justify-content: center;
+
+}
+.propertyO{
+    margin-top: 2rem;
+    margin-left: 1rem;
+    border:1px solid #ccc;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 21.25rem;
+    margin-bottom: 20px;
+    transition: 0.25s ease-in;
+  }
+  .propertyO:hover{
+      border-radius: 1px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+      width: 21.50rem;
+  }
+  span{
+    display: flex;
+    justify-content: space-between;
+  }
+  .propertyO-img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .infoO{
+      padding: 5px;
+  }
+  .propertyO-title{
+      margin: 0 0 8px;
+      font-size: 1.25rem;
+      color: #333;
+  }
+  .propertyO-price{
+      margin: 0;
+    font-size: 1.25rem;
+    color: black;
+  
+  }
+  .propertyO-desc{
+      font-size: 1rem;
+      color: #333;
+  }
+  .propertyO-loc{
+    font-size: 1rem;
+      color: #333;
+  }
+  .propertyO-country{
+    margin-top: 1.25rem;
+    font-size: 1rem;
+      color: #333;
+  }
+  .own-btns{
+    display:flex;
+   
+   
+    
+}
+
+  #update-btn{
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-radius: 10px;
+    font-size: large;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+    background-color: rgb(50 , 50 , 50);
+    color: white;
+    transition: 0.25s ease-in;
+  }
+  #update-btn:hover{
+    padding-left: 1.75rem;
+    padding-right: 1.75rem;
+  }
+
+  #delete-btn{
+
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-radius: 10px;
+    font-size: large;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+    background-color: rgb(50 , 50 , 50);
+    color: white;
+    margin-top: 0.5rem;
+    transition: 0.25s ease-in;
+  }
+  #delete-btn:hover{
+    padding-left: 1.75rem;
+    padding-right: 1.75rem;
+  }

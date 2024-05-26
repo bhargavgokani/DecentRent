@@ -1,0 +1,131 @@
+.header-wrapper{
+    margin: 0;
+    display: flex;
+    /* position: fixed; */
+    background-color: white;
+    justify-content: space-between;
+    width: 100%;
+    padding: 1rem;
+    box-shadow: 0 2px 2px -2px rgba(50, 50, 50, 0.4);
+}
+
+.header-left{
+    display: flex;
+    align-items: center;
+    width: 60%;
+    background-color:white;
+    position: relative;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+.header-left>h1{
+    margin-left: 6rem;
+    color: rgb(50, 50, 50);
+    text-decoration: none;
+}
+
+.header-right{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 40%;
+    background-color: white;
+
+}
+.header-right>div{
+    border: 1px solid rgb(50, 50, 50) ;
+    /* padding: 0.5rem; */
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 4px -2px rgba(50, 50, 50, 0.4);
+}
+.header-right>div :hover{
+    padding: 0.75rem;
+    transition: 0.3s ease-in;
+}
+.header-right>div>a{
+    font-size: 1rem;
+    color: rgb(50, 50, 50);
+    text-decoration: none;
+}
+.h-r-5{
+    background-color: rgb(50, 50, 50);
+}
+
+/* .profile-open{
+    background-color: white;
+    width: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-decoration: none;
+    box-shadow: 0 4px 4px -2px rgba(50, 50, 50, 0.4);
+    position: fixed;
+    right: 0;
+    top: 10rem;
+
+}
+.profile-close{
+    background-color: white;
+    width: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-decoration: none;
+    box-shadow: 0 4px 4px -2px rgba(50, 50, 50, 0.4);
+    position: fixed;
+    display: none;
+    right: 0;
+
+}
+.p{
+    background-color: white;
+    padding: 1rem;
+    margin-top: 0.25rem;
+    color: rgb(50, 50, 50);
+}
+.p>a{
+    text-decoration: none;
+    color: rgb(50, 50, 50);
+}
+.p-b{
+    background-color: rgb(50, 50, 50);
+
+}
+.p-b>a{
+    text-decoration: none;
+    color: white;
+
+} */
+
+/* @media only screen and (max-width: 767px) {
+    
+    .header-wrapper{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        overflow-x: hidden;
+    }
+    .header-right{
+        display: none;
+
+    }
+    .header-left{
+        display: flex;
+        align-items: center;
+        background-color:white;
+        font-size: 1rem;
+        text-decoration: none;
+        margin-right: 5rem;
+    }
+    .header-left>h1{
+        color: rgb(50, 50, 50);
+        text-decoration: none;
+    }
+    
+  } */
+

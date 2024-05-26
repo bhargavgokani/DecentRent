@@ -1,0 +1,149 @@
+.propertyCard-wrapper{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+
+.propertyC{
+    margin-top: 2rem;
+    margin-left: 1rem;
+    border:1px solid #ccc;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 40rem;
+    margin-bottom: 20px;
+    transition: 0.25s ease-in;
+  }
+  /* .propertyC:hover{
+      border-radius: 1px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+      width: 21.50rem;
+  } */
+  span{
+    display: flex;
+    justify-content: space-between;
+  }
+  .propertyC-img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+  }
+  
+  .infoC{
+      padding: 5px;
+  }
+  .propertyC-title{
+      margin: 0 0 8px;
+      font-size: 1.25rem;
+      color: #333;
+  }
+  .propertyC-price{
+      margin: 0;
+    font-size: 1.25rem;
+    color: black;
+  
+  }
+  .propertyC-desc{
+      font-size: 1rem;
+      color: #333;
+  }
+  .propertyC-loc{
+    font-size: 1rem;
+      color: #333;
+  }
+  .propertyC-country{
+    margin-top: 1.25rem;
+    font-size: 1rem;
+      color: #333;
+  }
+
+  #save-btn{
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-radius: 10px;
+    font-size: large;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+    background-color: rgb(50 , 50 , 50);
+    color: white;
+    transition: 0.25s ease-in;
+  }
+  #save-btn:hover{
+    padding-left: 1.75rem;
+    padding-right: 1.75rem;
+  }
+
+  input[type="text"] {
+    border: 1px solid rgba(50, 50, 50, 0.5); 
+    padding: 10px;
+    margin: 5px 0; 
+    width: 95%; 
+    box-sizing: border-box; 
+    border-radius: 10px; 
+  }
+  
+  input[type="text"]:focus {
+    border: 2px solid rgba(50, 50, 50, 0.5);
+    border-color: rgb(50 , 50 , 50); 
+    box-shadow: 0 0 5px rgba(50, 50, 50, 0.5);
+  }
+  
+  input[type="text"]::placeholder {
+    color: #a9a9a9; 
+    font-size: medium;
+  }
+  .review{
+    margin-left: 1rem;
+  }
+
+  #review{
+    padding: 3rem;
+  }
+#review-btn{
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+    border-radius: 10px;
+    font-size: small;
+    margin-top: 0.5rem;
+    background-color: rgb(50 , 50 , 50);
+    color: white;
+    transition: 0.25s ease-in;
+  }
+
+  #review-btn:hover{
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .reviews{
+    border-top: 1px solid black;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    margin-right: 1rem;
+  }
+  .comments{
+    padding: 0.75rem;
+    margin-top: 0.25rem;
+    border-top: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  @media only screen and (max-width: 600px) {
+  
+    .propertyCard-wrapper{
+      width:18rem;
+    }
+  
+    .propertyC-img{
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+  }

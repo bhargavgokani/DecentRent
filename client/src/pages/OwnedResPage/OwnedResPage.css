@@ -1,0 +1,10 @@
+.ownedproperties-wrapper{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+@media only screen and (max-width: 600px) {
+    .ownedproperties-wrapper{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+  }
